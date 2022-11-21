@@ -23,8 +23,8 @@ Projeto concluido confrome o objetivo requiridos.
 - [x] `Botão Limpar:` Limpa os dados antes de ser cadastrado. 
 - [x] `Calcular media:` Calcula media automaticamente. 
 - [x] `Listagem de Alunos:` Mostra os alunos cadastrados. 
-- [] `Atualizar pagina:` Ao atualizar pagina, as informações continuaram fixas.
-- [] `Nome do Aluno:` Mostra o nome do aluno ao deletar.  
+- [ ] `Atualizar pagina:` Ao atualizar pagina, as informações continuaram fixas.
+- [ ] `Nome do Aluno:` Mostra o nome do aluno ao deletar.  
 
 ### Projeto no GitPages
 https://jaaypereira.github.io/AtividadeEdkallenn/
