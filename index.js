@@ -130,7 +130,7 @@ class Aluno {
 
     deletar(matricula) {
 
-        if (confirm('Deseja Deletar o aluno: ' + this.arrayAlunos.nome + ' ?')) {
+        if (confirm('Deseja Deletar o aluno: ' + aluno + ' ?')) {
             let tbody = document.getElementById('tbody');
 
             for (let i = 0; i < this.arrayAlunos.length; i++) {
