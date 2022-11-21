@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade DOM - Jaya </title>
+</head>
+
+<body>
+    <main>
+        <h1 class="centerAlign">Classe Alunos</h1>
+        <div>
+            <h2>Lista de Alunos</h2>
+            <p>Cadastro de Alunos</p>
+        </div>
+
+        <div class="quadrado">
+            <div class="linhaInput">
+                <label for="">Nome
+                </label>
+                <input type="text" id="aluno" placeholder="Nome">
+                <label for="">Matrícula</label>
+                <input type="text" id="matricula" placeholder="Matrícula">
+            </div>
+            <div class="linhaInput">
+                <label for="">Primeira Nota</label>
+                <input type="number" min="0" max="10" id="nota1" placeholder="Primeira Nota">
+                <label for="">Segunda Nota</label>
+                <input type="number" min="0" max="10" id="nota2" placeholder="Segunda Nota">
+                <label for="">Terceira Nota</label>
+                <input type="number" min="0" max="10" id="nota3" placeholder="Terceira Nota">
+            </div>
+
+
+            <button onclick="aluno.salvar()">Salvar</button>
+            <button onclick="aluno.limpar()">Limpar</button>
+        </div>
+        <div class="espacamento">
+            <table>
+                <thead>
+                    <th>Aluno</th>
+                    <th>Matrícula</th>
+                    <th>Primeira Nota</th>
+                    <th>Segunda Nota</th>
+                    <th>Terceira Nota</th>
+                    <th>Média</th>
+                    <th>Deletar</th>
+                </thead>
+                <tbody id="tbody">
+    </main>
+    </tbody>
+    </table>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
